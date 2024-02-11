@@ -1,6 +1,6 @@
 const geoip = require("geoip-lite");
 const useragent = require("express-useragent");
-const sendEmail = require("./../utils/email");
+const sendEmail = require("../Utils/email");
 
 osDetectionEmailSender = async (req, user) => {
   // Get user information

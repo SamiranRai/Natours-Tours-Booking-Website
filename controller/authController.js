@@ -1,10 +1,10 @@
 const crypto = require("crypto");
 const { promisify } = require("util");
-const User = require("./../models/userModel");
-const catchAsync = require("./../utils/catchAsync");
-const AppError = require("./../utils/appError");
+const User = require("../Models/userModel");
+const catchAsync = require("../Utils/catchAsync");
+const AppError = require("../Utils/appError");
 const jwt = require("jsonwebtoken");
-const sendEmail = require("./../utils/email");
+const sendEmail = require("../Utils/email");
 
 let counter = 0;
 

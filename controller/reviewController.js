@@ -1,8 +1,8 @@
 // All Reuired Modules
-const catchAsync = require("../utils/catchAsync");
-const Review = require("./../models/reviewModel");
-const factory = require("./../controller/handllerFactory");
-const AppError = require("./../utils/appError");
+const catchAsync = require("../Utils/catchAsync");
+const Review = require("../Models/reviewModel");
+const factory = require("./handllerFactory");
+const AppError = require("../Utils/appError");
 
 // Top Middlewares
 exports.getLoggedInUserIDandTourId = (req, res, next) => {

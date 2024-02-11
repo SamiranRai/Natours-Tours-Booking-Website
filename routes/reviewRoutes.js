@@ -1,7 +1,7 @@
 // All Reuired Modules
 const express = require("express");
-const authController = require("./../controller/authController");
-const reviewController = require("./../controller/reviewController");
+const authController = require("../Controller/authController");
+const reviewController = require("../Controller/reviewController");
 
 // Router, mergeParams: merge the parameter
 const router = express.Router({ mergeParams: true });

@@ -1,8 +1,8 @@
 // All Reuired Modules
-const Tour = require("./../models/tourModel");
-const catchAsync = require("./../utils/catchAsync");
-const AppError = require("./../utils/appError");
-const factory = require("./../controller/handllerFactory");
+const Tour = require("../Models/tourModel");
+const catchAsync = require("../Utils/catchAsync");
+const AppError = require("../Utils/appError");
+const factory = require("./handllerFactory");
 
 // Top Middleware
 exports.aliasTopTours = (req, res, next) => {

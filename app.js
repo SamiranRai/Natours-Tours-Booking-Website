@@ -9,13 +9,13 @@ const xss = require("xss-filters");
 const hpp = require("hpp");
 
 // All Router
-const tourRouter = require("./routes/tourRoutes");
-const userRouter = require("./routes/userRoutes");
-const reviewRouter = require("./routes/reviewRoutes");
+const tourRouter = require("./Routes/tourRoutes");
+const userRouter = require("./Routes/userRoutes");
+const reviewRouter = require("./Routes/reviewRoutes");
 
 // All Errors Handller Modules
-const AppError = require("./utils/appError");
-const globalErrorHandler = require("./controller/errorController");
+const AppError = require("./Utils/appError");
+const globalErrorHandler = require("./Controller/errorController");
 
 const app = express();
 

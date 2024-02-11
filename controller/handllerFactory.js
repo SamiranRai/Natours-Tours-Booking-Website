@@ -1,6 +1,6 @@
-const catchAsync = require("./../utils/catchAsync");
-const AppError = require("./../utils/appError");
-const APIFeatures = require("./../utils/apiFeatures");
+const catchAsync = require("../Utils/catchAsync");
+const AppError = require("../Utils/appError");
+const APIFeatures = require("../Utils/apiFeatures");
 
 // Delete One Document
 exports.deleteOne = (Model) =>

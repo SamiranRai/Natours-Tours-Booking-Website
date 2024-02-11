@@ -1,8 +1,8 @@
 // All Reuired Modules
-const User = require("./../models/userModel");
-const AppError = require("./../utils/appError");
-const catchAsync = require("./../utils/catchAsync");
-const factory = require("./../controller/handllerFactory");
+const User = require("./../Models/userModel");
+const AppError = require("./../Utils/appError");
+const catchAsync = require("./../Utils/catchAsync");
+const factory = require("./../Controller/handllerFactory");
 
 // Top Middleware
 exports.getMe = (req, res, next) => {

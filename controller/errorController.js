@@ -1,4 +1,4 @@
-const AppError = require("./../utils/appError");
+const AppError = require("./../Utils/appError");
 
 // JSON-WEB TOKEN ERRORS HANDLE
 //1) handling invalid token error...

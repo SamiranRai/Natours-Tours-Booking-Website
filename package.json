@@ -9,7 +9,7 @@
     "start:prod": "set NODE_ENV=production && nodemon server.js"
   },
   "keywords": [],
-  "author": "samiran ray",
+  "author": "Samiran Ray",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.1"

@@ -1,7 +1,7 @@
 // All Reuired Modules
 const express = require("express");
-const userController = require("./../controller/userController");
-const authController = require("./../controller/authController");
+const userController = require("./../Controller/userController");
+const authController = require("./../Controller/authController");
 
 // Router
 const router = express.Router();
