@@ -4,7 +4,7 @@ const validator = require("validator");
 const crypto = require("crypto");
 const bcrypt = require("bcryptjs");
 
-// TODO: fix this userSchema
+// DONE: "TODO" - fix this userSchema [12 May 2025 | 1747053390643]
 // User Schema
 const userSchema = new mongoose.Schema({
   name: {
