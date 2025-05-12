@@ -4,6 +4,7 @@ const validator = require("validator");
 const crypto = require("crypto");
 const bcrypt = require("bcryptjs");
 
+// TODO: fix this userSchema
 // User Schema
 const userSchema = new mongoose.Schema({
   name: {
@@ -55,14 +56,13 @@ const userSchema = new mongoose.Schema({
   },
 });
 
-// Pre Query-Middleware
 userSchema.pre(/^find/, function (next) {
   this.find({ active: { $ne: false } });
   next();
 });
 
 // DOCUMENT MIDDLEWARE:
-//NOTE: bcrypt.hash() is a async function!
+// note : bcrypt.hash() is a async function!
 // pass 1 - pass2(not hashed but modified)
 // new user  - pass 1(not hashed )
 userSchema.pre("save", async function (next) {

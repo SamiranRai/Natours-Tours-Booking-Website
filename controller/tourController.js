@@ -2,7 +2,7 @@
 const Tour = require("../Models/tourModel");
 const catchAsync = require("../Utils/catchAsync");
 const AppError = require("../Utils/appError");
-const factory = require("./handllerFactory");
+const factory = require("../Controller/handllerFactory");
 
 // Top Middleware
 exports.aliasTopTours = (req, res, next) => {

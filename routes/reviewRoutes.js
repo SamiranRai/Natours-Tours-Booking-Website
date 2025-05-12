@@ -6,7 +6,7 @@ const reviewController = require("../Controller/reviewController");
 // Router, mergeParams: merge the parameter
 const router = express.Router({ mergeParams: true });
 
-router.use(authController.prgiotect);
+router.use(authController.protect);
 
 // Routes
 router
